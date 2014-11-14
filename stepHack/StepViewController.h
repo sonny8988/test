@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  StepViewController.h
 //  stepHack
 //
 //  Created by Indra Bagus Wicaksono on 11/9/14.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface StepViewController : UIViewController
+- (IBAction)incrementStepAction:(id)sender;
 
 @end
-
